@@ -1,0 +1,143 @@
+#body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+  }
+  #mainDiv {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #inputDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #input {
+    width: 17vw;
+    height: 2.5vh;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 23px;
+  }
+  #tableDiv {
+    display: flex;
+    width: 17vw;
+    height: 2.5vh;
+    border: none;
+    margin-bottom: 23px;
+    margin-left: 41.3vw;
+    justify-content: center;
+    align-items: center;
+  }
+  #buttonDiv {
+    display: flex;
+    justify-content: center;
+  }
+  #themeButton {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 10.3vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  #themeButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  #themeButton span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  #themeButton:hover span {
+    padding-right: 25px;
+  }
+  #themeButton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .sagebrushMainDivMainDiv {
+    background-color: #567572ff;
+  }
+  .sagebrushMainDivMainDiv div table tr th {
+    color: black;
+  }
+  .sagebrushMainDivMainDiv div table tr td {
+    text-align: center;
+    color: black;
+  }
+  .sagebrushMainDivMainDiv button {
+    background-color: #964f4cff;
+  }
+  
+  .blueMainDiv {
+    background-color: #195190ff;
+  }
+  .blueMainDiv div table tr th {
+    color: #a2a2a1ff;
+  }
+  .blueMainDiv div table tr td {
+    text-align: center;
+    color: #a2a2a1ff;
+  }
+  .blueMainDiv button {
+    background-color: #a2a2a1ff;
+  }
+  
+  .blackMainDiv {
+    background-color: #101820ff;
+  }
+  .blackMainDiv div table tr th {
+    color: #f2aa4cff;
+  }
+  .blackMainDiv div table tr td {
+    text-align: center;
+    color: #f2aa4cff;
+  }
+  .blackMainDiv button {
+    background-color: #f2aa4cff;
+  }
+  
+  .yellowMainDiv {
+    background-color: #f4b41a;
+  }
+  .yellowMainDiv div table tr th {
+    color: #143d59;
+  }
+  .yellowMainDiv div table tr td {
+    text-align: center;
+    color: #143d59;
+  }
+  .yellowMainDiv button {
+    background-color: #143d59;
+  }
+  
+  .ShadeBlueMainDiv {
+    background-color: #77a6d1;
+  }
+  .ShadeBlueMainDiv div table tr th {
+    color: #8b307f;
+  }
+  .ShadeBlueMainDiv div table tr td {
+    text-align: center;
+    color: #8b307f;
+  }
+  .ShadeBlueMainDiv button {
+    background-color: #8b307f;
+  }
